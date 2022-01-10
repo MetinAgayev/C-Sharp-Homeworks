@@ -10,41 +10,69 @@ namespace CashMachine.Model
         public double TotalAmount { get; set; }
         public  Currency Currency { get; set; }
         public int TotalSalesCount;
-        public string PaymentType { get; set; }
+        public PaymentType PaymentType { get; set; }
         public CashRegister(double totalamount)
         {
-            TotalSalesCount++;
+            
             TotalAmount = totalamount;
             
         }
-  public void AddNewSale(double value,Currency currency)
+  public void AddNewSale(double value,Currency currency,PaymentType paymentType)
         {
-            if (currency == Currency)
+            TotalSalesCount++;
+            switch (PaymentType)
             {
-                TotalAmount += value;
+                case PaymentType.Kart:
+                    Console.WriteLine("Kartla Emeliyyat etdiniz");
+                    break;
+                case PaymentType.Nagd:
+                    Console.WriteLine("Nagd sekilde emeliyyat etdiniz");
+                    break;
+                default:
+                    break;
             }
-            else
+            switch (Currency)
             {
+                case Currency.Azn:
+                    TotalAmount += value;
+                    break;
+                case Currency.Sterling:
+                    TotalAmount += value * 2;
+                    break;
+                case Currency.Dollar:
+                    TotalAmount += value * 1.7;
+                    break;
+                default:
+
+                    break;
+            }
+        }
+        public void RemoveSale(double value, Currency currency)
+        {
+           
+          
+           
                 switch (Currency)
                 {
+                    case Currency.Azn:
+                        TotalAmount -= value;
+                    break;
                     case Currency.Sterling:
-                        TotalAmount = value * 2;
+                        TotalAmount -= value * 2;
                         break;
                     case Currency.Dollar:
-                        TotalAmount += value * 1.7;
-
-
+                        TotalAmount -= value * 1.7;
                         break;
                     default:
 
                         break;
                 }
-            }
+           
         }
 
         public override string ToString()
         {
-            return $" {TotalAmount}";
+            return $" {TotalAmount}{TotalSalesCount}";
             
         }
 

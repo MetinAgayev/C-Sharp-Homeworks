@@ -4,11 +4,9 @@ using System.Text;
 
 namespace CashMachine.Model
 {
-    enum Currency
+    enum PaymentType
     {
-        Azn,
-        Dollar,
-        Sterling
-       
+        Kart,
+        Nagd
     }
 }
