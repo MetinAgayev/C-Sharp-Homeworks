@@ -8,16 +8,16 @@ namespace CashMachine.Model
     {
 
         public double TotalAmount { get; set; }
-        public  Currency Currency { get; set; }
+        public Currency Currency { get; set; }
         public int TotalSalesCount;
         public PaymentType PaymentType { get; set; }
         public CashRegister(double totalamount)
         {
-            
+
             TotalAmount = totalamount;
-            
+
         }
-  public void AddNewSale(double value,Currency currency,PaymentType paymentType)
+        public void AddNewSale(double value, Currency currency, PaymentType paymentType)
         {
             TotalSalesCount++;
             switch (PaymentType)
@@ -49,33 +49,30 @@ namespace CashMachine.Model
         }
         public void RemoveSale(double value, Currency currency)
         {
-           
-          
-           
-                switch (Currency)
-                {
-                    case Currency.Azn:
-                        TotalAmount -= value;
-                    break;
-                    case Currency.Sterling:
-                        TotalAmount -= value * 2;
-                        break;
-                    case Currency.Dollar:
-                        TotalAmount -= value * 1.7;
-                        break;
-                    default:
 
-                        break;
-                }
-           
+            TotalSalesCount--;
+
+            switch (Currency)
+            {
+                case Currency.Azn:
+                    TotalAmount -= value;
+                    break;
+                case Currency.Sterling:
+                    TotalAmount -= value * 2;
+                    break;
+                case Currency.Dollar:
+                    TotalAmount -= value * 1.7;
+                    break;
+            }
+
         }
 
         public override string ToString()
         {
             return $" {TotalAmount}{TotalSalesCount}";
-            
+
         }
 
     }
- 
+
 }

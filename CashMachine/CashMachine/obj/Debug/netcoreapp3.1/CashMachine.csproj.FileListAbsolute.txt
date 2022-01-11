@@ -26,3 +26,17 @@ C:\Users\metin\OneDrive\Рабочий стол\C-Sharp-Homeworks\CashMachine\Ca
 C:\Users\metin\OneDrive\Рабочий стол\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.dll
 C:\Users\metin\OneDrive\Рабочий стол\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.pdb
 C:\Users\metin\OneDrive\Рабочий стол\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.genruntimeconfig.cache
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.exe
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.deps.json
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.runtimeconfig.json
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.runtimeconfig.dev.json
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.dll
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\bin\Debug\netcoreapp3.1\CashMachine.pdb
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.csproj.AssemblyReference.cache
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.AssemblyInfoInputs.cache
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.AssemblyInfo.cs
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.csproj.CoreCompileInputs.cache
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.dll
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.pdb
+C:\Users\matinga\Desktop\C-Sharp-Homeworks\CashMachine\CashMachine\obj\Debug\netcoreapp3.1\CashMachine.genruntimeconfig.cache
